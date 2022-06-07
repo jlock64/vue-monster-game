@@ -2,8 +2,6 @@ function getRandomValue(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-let currentRound
-
 const app = Vue.createApp({
   data() {
     return {
